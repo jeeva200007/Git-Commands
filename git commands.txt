@@ -42,4 +42,7 @@ used to switch to the branch
 
  12. git pull origin main --> pulls files to the terminal from the github Repository.
 
+13. git merge "branch name"
+
+ ---> idealy, we need to do git add git Commit always after merge before merge , before push and after pull.
 
