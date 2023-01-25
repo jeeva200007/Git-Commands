@@ -1,0 +1,45 @@
+1.To check git and version use  git --version
+
+2.First of all we need to CONFIG the git using 
+ Username and email
+ Code to config username and email is,
+ git config --global user.name "Jeeva A"
+ git config --global user.email "jeevaaru2000@gmail.com"
+ now its configured.to check email and username in git type git config user.name or user.email to check the config status.
+
+3. Then we ne to initialize the git into the Repository.Repository is nothing but a folder.
+For that use    git init 
+
+4. Now we need stage the file to the Repository. staging is a file to add to the git Repository,
+For that use git add "file name"(without quoatation)   git add .  here this dot represnts to add all files.
+
+5. Next step is to Commit the file. Commit is the main step       before pushing the file. Commit command save changes to the local Repository
+For that use   git Commit -m "message related to the file"
+here -m is a message.
+
+6. git diff
+this command is to check the difference between what the file was and what the file is.to check what changes have done.
+
+7. git restore filename.txt
+this command restore the file which saved initially after modify.
+
+8. git branch "branch name"--> without double quotes
+branches is used to created which is exact copy of current working main branch.
+git branch -M main --> to renaming master to main branch.
+i. git branch --> to list the all branch 
+ii. git branch d "branch name" --> to delete the branch (will not able to delete the unmerged file)
+iii. git branch D "branch name" --> force to delete the branch
+iv. git branch -m "name to rename the current 
+ly working active branch"
+
+9. git checkout "branch name"--> witout double quotes 
+used to switch to the branch
+ git checkout master to go main branch
+
+ 10. git remote add origin "link from github"
+
+ 11. git push -u origin main
+
+ 12. git pull origin main --> pulls files to the terminal from the github Repository.
+
+
